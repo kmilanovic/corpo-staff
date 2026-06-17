@@ -1,6 +1,13 @@
-Screen nolock
- - Create screen-nolock.cmd and screen-nolock.ps1 files somwhere on the disk
- - Change path of screen-nolock.cmd to look at screen-nolock.ps1 on your disk
- - Run screen-nolock.cmd file
+Screen NoLock
 
- - Also, you can put screen-nolock.cmd in Start-up folder by opening Run dialog box (Windows key + R) and typing shell:startup
+Use only if this is approved by IT/security policy.
+
+1. Create the `screen-nolock.cmd` and `screen-nolock.ps1` files somewhere on your disk.
+2. Update the path inside `screen-nolock.cmd` so it points to the correct location of `screen-nolock.ps1`.
+3. Run `screen-nolock.cmd`.
+
+Optional:
+You can add `screen-nolock.cmd` to the Windows Startup folder:
+- Press `Windows key + R`
+- Type `shell:startup`
+- Place the `screen-nolock.cmd` shortcut/file there
